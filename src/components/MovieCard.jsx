@@ -2,7 +2,7 @@ import React from 'react'
 
 const MovieCard = ({ movie }) => {
   return (
-    <div className=" w-[350px] md:w-52 overflow-hidden flex flex-col items-center p-2 border-2 rounded  border-cyan-700">
+    <div className=" w-[350px] hover:transform hover:scale-[1.05] duration-300 md:w-52 overflow-hidden flex flex-col items-center p-2 border-2 rounded  border-cyan-700">
       <div className={`image w-full md:h-52    rounded-md overflow-hidden`}>
         <img className="object-cover w-full h-full rounded" src={movie.poster_path} alt="" />
       </div>
